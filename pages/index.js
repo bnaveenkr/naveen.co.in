@@ -13,15 +13,20 @@ export default function Home({ allPostsData }) {
         </Head>
         <section className={utilStyles.headingMd}>
           <p>
-              Experienced leader with proven ability of building Products and Teams.
+              Hi there! I'm an engineering leader with proven ability of building Products and Teams.
+              Currently leading teams to build next-gen performance management tools
+              &nbsp;<a href="https://www.reflektive.com/" target="_blank">@Reflektive</a>
           </p>
           <p>
-              Currently building next-gen products at Reflektive and leading devops team.
-              Previously at BlippAR, Dreamworks Animation and Qualcomm
+              Previously a built Augmented Reality publishing platform at &nbsp;
+              <a href="https://www.blippar.com" target="_blank">@BlippAR</a>,
+              built tools for artists and movies &nbsp;<a href="https://www.imdb.com/name/nm5103590/">@Dreamworks Animation</a>,
+              wrote bluetooth drivers at &nbsp;<a href="https://www.qualcomm.com/" target="_blank">@Qualcomm</a>,
+              studied computer science at &nbsp;<a href="https://iiit.ac.in">@IIIT-Hyderabad</a>
           </p>
         </section>
           <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-              <h2 className={utilStyles.headingLg}>Blog</h2>
+              <h2 className={utilStyles.headingLg}>Blog Posts</h2>
               <ul className={utilStyles.list}>
                   {allPostsData.map(({ id, date, title }) => (
                       <li className={utilStyles.listItem} key={id}>

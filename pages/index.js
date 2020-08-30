@@ -18,7 +18,7 @@ export default function Home({ allPostsData }) {
               &nbsp;<a href="https://www.reflektive.com/" target="_blank">@Reflektive</a>
           </p>
           <p>
-              Previously a built Augmented Reality publishing platform at &nbsp;
+              Previously built an Augmented Reality publishing platform at &nbsp;
               <a href="https://www.blippar.com" target="_blank">@BlippAR</a>,
               built tools for artists and movies &nbsp;<a href="https://www.imdb.com/name/nm5103590/">@Dreamworks Animation</a>,
               wrote bluetooth drivers at &nbsp;<a href="https://www.qualcomm.com/" target="_blank">@Qualcomm</a>,

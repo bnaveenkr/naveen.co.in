@@ -11,6 +11,7 @@ export default function Home({ allPostsData }) {
         <Head>
           <title>{siteTitle}</title>
         </Head>
+
         <section className={utilStyles.headingMd}>
           <p>
               Hi there! I'm an engineering leader with proven ability of building Products and Teams.
@@ -20,26 +21,28 @@ export default function Home({ allPostsData }) {
           <p>
               Previously built an Augmented Reality publishing platform at &nbsp;
               <a href="https://www.blippar.com" target="_blank">@BlippAR</a>,
-              built tools for artists and movies &nbsp;<a href="https://www.imdb.com/name/nm5103590/">@Dreamworks Animation</a>,
-              wrote bluetooth drivers at &nbsp;<a href="https://www.qualcomm.com/" target="_blank">@Qualcomm</a>,
-              studied computer science at &nbsp;<a href="https://iiit.ac.in">@IIIT-Hyderabad</a>
+              built tools for artists and movies &nbsp;<a href="https://www.imdb.com/name/nm5103590/" target="_blank">@Dreamworks Animation</a>,
+              wrote bluetooth drivers at &nbsp;<a href="https://www.qualcomm.com/" target="_blank">@Qualcomm</a> and
+              studied computer science at &nbsp;<a href="https://iiit.ac.in" target="_blank">@IIIT-Hyderabad</a>
           </p>
         </section>
-          <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-              <h2 className={utilStyles.headingLg}>Blog Posts</h2>
-              <ul className={utilStyles.list}>
-                  {allPostsData.map(({ id, date, title }) => (
-                      <li className={utilStyles.listItem} key={id}>
-                          <Link href="/posts/[id]" as={`/posts/${id}`}>
-                              <a>{title}</a>
-                          </Link>
-                          <br />
-                          <small className={utilStyles.lightText}>
-                              <Date dateString={date} />
-                          </small>
-                      </li>
-                  ))}
-              </ul>
+        <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+            <h2 className={utilStyles.headingLg}>
+                Blog Posts
+            </h2>
+            <ul className={utilStyles.list}>
+                {allPostsData.map(({ id, date, title }) => (
+                    <li className={utilStyles.listItem} key={id}>
+                        <Link href="/posts/[id]" as={`/posts/${id}`}>
+                            <a>{title}</a>
+                        </Link>
+                        <br />
+                        <small className={utilStyles.lightText}>
+                            <Date dateString={date} />
+                        </small>
+                    </li>
+                ))}
+            </ul>
           </section>
       </Layout>
   )

@@ -14,16 +14,19 @@ export default function Home({ allPostsData }) {
 
         <section className={utilStyles.headingMd}>
           <p>
-              Hi there! I'm an engineering leader with proven ability of building Products and Teams.
-              Currently leading teams to build next-gen performance management tools
-              &nbsp;<a href="https://www.reflektive.com/" target="_blank">@Reflektive</a>
+              Hi there!
+              I'm an engineering leader with proven ability of building Products and Teams.
+              Currently leading teams which build next-gen performance management tools&nbsp;<a href="https://www.reflektive.com/" target="_blank">@Reflektive</a>
           </p>
           <p>
-              Previously built an Augmented Reality publishing platform at &nbsp;
+              Previously built an Augmented Reality publishing platform&nbsp;
               <a href="https://www.blippar.com" target="_blank">@BlippAR</a>,
-              built tools for artists and movies &nbsp;<a href="https://www.imdb.com/name/nm5103590/" target="_blank">@Dreamworks Animation</a>,
-              wrote bluetooth drivers at &nbsp;<a href="https://www.qualcomm.com/" target="_blank">@Qualcomm</a> and
-              studied computer science at &nbsp;<a href="https://iiit.ac.in" target="_blank">@IIIT-Hyderabad</a>
+              built tools for artists and movies&nbsp;
+              <a href="https://www.imdb.com/name/nm5103590/" target="_blank">@Dreamworks Animation</a>,
+              wrote bluetooth drivers&nbsp;
+              <a href="https://www.qualcomm.com/" target="_blank">@Qualcomm</a> and
+              studied computer science&nbsp;
+              <a href="https://iiit.ac.in" target="_blank">@IIIT-Hyderabad</a>
           </p>
         </section>
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>

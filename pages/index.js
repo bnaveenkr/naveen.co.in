@@ -16,9 +16,10 @@ export default function Home({ allPostsData }) {
           <p>
               Hi there!
               I'm an engineering leader with proven ability of building Products and Teams.
-              Currently leading teams which build next-gen performance management tools&nbsp;<a href="https://www.reflektive.com/" target="_blank">@Reflektive</a>
+              Currently CTO at &nbsp;<a href="https://www.openenvoy.com/" target="_blank">@OpenEnvoy</a>
           </p>
           <p>
+              Previoulsy built and lead teams which build next-gen performance management tools&nbsp;<a href="https://www.reflektive.com/" target="_blank">@Reflektive</a>
               Previously built an Augmented Reality publishing platform&nbsp;
               <a href="https://www.blippar.com" target="_blank">@BlippAR</a>,
               built tools for artists and movies&nbsp;
